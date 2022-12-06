@@ -53,7 +53,7 @@ cv.setMouseCallback('Tracking Object', mouse_event_dispatcher)
 
 tracking_win_x, tracking_win_y, tracking_win_w, tracking_win_h = -1, -1, -1, -1
 
-cv.putText(first_frame_of_video, 'Press the left mouse button to select the trace object', (50, 100),
+cv.putText(first_frame_of_video, 'Press the left mouse button to select the tracking object', (50, 100),
            cv.FONT_HERSHEY_SIMPLEX, 1.3, RED_BRG, 2, cv.LINE_AA)
 cv.putText(first_frame_of_video, 'Press the "C" key to continue after selection', (50, 150),
            cv.FONT_HERSHEY_SIMPLEX, 1.3, RED_BRG, 2, cv.LINE_AA)
